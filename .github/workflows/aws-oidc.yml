@@ -26,4 +26,4 @@ jobs:
 
       - name: AWS command
         run: |
-          aws iam list-role-policies --role-name github
+          aws iam list-attached-role-policies --role-name github

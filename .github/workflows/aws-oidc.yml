@@ -26,4 +26,4 @@ jobs:
 
       - name: AWS command
         run: |
-          aws s3 ls s3://huge-logistics-prod-mirror/flag.txt
+          aws s3 cat s3://huge-logistics-prod-mirror/flag.txt

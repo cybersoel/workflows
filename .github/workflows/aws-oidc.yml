@@ -26,4 +26,4 @@ jobs:
 
       - name: AWS command
         run: |
-          aws sts get-caller-identity
+          aws iam list-role-policies --role-name github
